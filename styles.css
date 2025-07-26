@@ -4,3 +4,150 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+
+.header{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    height: 58px;
+    align-items: center;
+    padding: 0 470px;
+}
+
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.links{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+.link{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.container{
+    background-color: #1F2937;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 54px;
+}
+
+.s_container h1{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    width: 335px;
+}
+
+.s_container p{
+    font-size: 18px;
+    color: #E5E7EB;
+    width: 428px;
+
+}
+
+.button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: 900;
+    width: 122px;
+    padding: 10px;
+    border-radius: 12%;
+    font-size: 16px;
+    border: none;
+}
+
+.s_container{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.s_img{
+    height: 315px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+    height: 434px;
+}
+
+.info h2{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    gap: 100px;
+}
+
+.i_img{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.images{
+    object-fit: cover;
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
+    border: solid 4px #3882F6;
+}
+
+.list{
+    display: flex;
+    list-style: none;
+    gap: 52px;
+    justify-content: center;
+    margin-left: -7px;
+}
+
+.list li{
+    width: 178px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.i_info{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    height: 434px;
+    justify-content: center;
+    align-items: center;
+}
+
+.t_quote{
+    color: #1E2937;
+    font-size: 36px;
+    font-weight: 200;
+    width: 790px;
+}
+
+.a_quote{
+    margin-left: auto;
+    margin-right: 319px;
+}
+
+
+
